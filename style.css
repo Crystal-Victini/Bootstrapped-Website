@@ -61,3 +61,15 @@ body {
     height: 20px;
     font-size: 15px;
   }
+
+  .nav-link {
+    color: #F49F1C;
+  }
+
+  .nav-item {
+    margin-right: 150px;
+  }
+
+  .navbar-brand {
+    color: #F49F1C;
+  }

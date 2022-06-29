@@ -11,28 +11,32 @@
 </head>
 
 <body>
-  <div class="collapse" id="navbarToggleExternalContent" style="">
-    <div class="bg-dark p-4">
-      <h5 class="text-white h4">Main Menu</h5>
-      <p class="text-white h4">Hoi</p>
-      <span class="text-white h4">Toggleable via the navbar brand.</span>
-    </div>
-  </div>
-  <nav class="navbar navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand col-4" href="#">Use us to change the font size!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" id="smol" href="#">Decrease Size</a>
+          </li>
+          <li></li>
+          <li class="nav-item">
+            <a class="nav-link" id="meh" href="#">Return Size</a>
+          </li>
+          <li></li>
+          <li class="nav-item">
+            <a class="nav-link" id="bigg" href="#">Increase Size</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
   <header class=".container">
     <h1 class="display-1" id="name">Amy N Bowen</h1>
-    <div class="buttons">
-      <button id="smol">Decrease size</button>
-      <button id="meh">Return size</button>
-      <button id="bigg">Increase size</button>
-    </div>
   </header>
   
   <main class="row justify-content-around">
